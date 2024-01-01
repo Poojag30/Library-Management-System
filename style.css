@@ -1,0 +1,138 @@
+/* General styles */
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	background-color: #333;
+	color: #fff;
+	display: flex;
+	flex-direction: column;
+	padding: 1rem;
+}
+
+h1 {
+	margin: 1;
+}
+
+nav ul {
+	display: flex;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav li {
+	margin-right: 1rem;
+}
+
+nav a {
+	color: #fff;
+	text-decoration: none;
+}
+
+main {
+	padding: 1rem;
+}
+
+section {
+	margin-bottom: 2rem;
+}
+
+h2 {
+	margin-top: 0;
+}
+
+table {
+	border-collapse: collapse;
+	width: 100%;
+}
+
+th, td {
+	border: 1px solid #ddd;
+	padding: 0.5rem;
+	text-align: left;
+}
+
+th {
+	background-color: #f2f2f2;
+}
+
+th:first-child, td:first-child {
+	padding-left: 1rem;
+}
+
+th:last-child, td:last-child {
+	padding-right: 1rem;
+}
+
+form {
+	display: flex;
+	margin-bottom: 1rem;
+}
+
+label {
+	margin-right: 1rem;
+}
+
+input[type="text"] {
+	padding: 0.5rem;
+}
+
+input[type="submit"] {
+	background-color: #333;
+	border: none;
+	color: #fff;
+	cursor: pointer;
+	padding: 0.5rem 1rem;
+}
+
+input[type="submit"]:hover {
+	background-color: #555;
+}
+
+footer {
+	background-color: #333;
+	color: #fff;
+	padding: 1rem;
+	text-align: center;
+}
+
+/* Responsive styles */
+@media only screen and (max-width: 768px) {
+	header {
+		align-items: center;
+		flex-direction: row;
+	}
+	
+	h1 {
+		flex: 1;
+		margin: 0;
+	}
+	
+	nav {
+		margin-top: 1rem;
+	}
+	
+	nav li {
+		margin-right: 0.5rem;
+	}
+	
+	nav a {
+		font-size: 0.8rem;
+	}
+	
+	form {
+		flex-direction: column;
+	}
+	
+	label {
+		margin-bottom: 0.5rem;
+	}
+	
+	input[type="submit"] {
+		margin-top: 0.5rem;
+	}
+}

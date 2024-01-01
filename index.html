@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Library Management System</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<header>
+		<h1>Library Management System</h1>
+		<nav>
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Books</a></li>
+				<li><a href="#">Borrowers</a></li>
+				<li><a href="#">Loans</a></li>
+				<li><a href="#">About</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<section>
+			<h2>Books</h2>
+			<form>
+				<label for="search-books">Search books:</label>
+				<input type="text" id="search-books" name="search-books">
+				<input type="submit" value="Search">
+			</form>
+			<table>
+				<thead>
+					<tr>
+						<th>Title</th>
+						<th>Author</th>
+						<th>Publication Date</th>
+						<th>Availability</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>The Great Gatsby</td>
+						<td>F. Scott Fitzgerald</td>
+						<td>1925</td>
+						<td>Available</td>
+					</tr>
+					<tr>
+						<td>To Kill a Mockingbird</td>
+						<td>Harper Lee</td>
+						<td>1960</td>
+						<td>Not available</td>
+					</tr>
+				</tbody>
+			</table>
+		</section>
+		<section>
+			<h2>Borrowers</h2>
+			<form>
+				<label for="search-borrowers">Search borrowers:</label>
+				<input type="text" id="search-borrowers" name="search-borrowers">
+				<input type="submit" value="Search">
+			</form>
+			<table>
+				<thead>
+					<tr>
+						<th>Name</th>
+						<th>Email</th>
+						<th>Phone</th>
+						<th>Books borrowed</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>John Doe</td>
+						<td>johndoe@example.com</td>
+						<td>(123) 456-7890</td>
+						<td>The Great Gatsby, To Kill a Mockingbird</td>
+					</tr>
+					<tr>
+						<td>Jane Doe</td>
+						<td>janedoe@example.com</td>
+						<td>(234) 567-8901</td>
+						<td>None</td>
+					</tr>
+				</tbody>
+			</table>
+		</section>
+		<section>
+			<h2>Loans</h2>
+			<form>
+				<label for="search-loans">Search loans:</label>
+				<input type="text" id="search-loans" name="search-loans">
+				<input type="submit" value="Search">
+</form>
+<table>
+<thead>
+<tr>
+<th>Borrower</th>
+<th>Book</th>
+<th>Date borrowed</th>
+<th>Due date</th>
+<th>Return date</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>John Doe</td>
+<td>The Great Gatsby</td>
+<td>2022-01-01</td>
+<td>2022-02-01</td>
+<td></td>
+</tr>
+<tr>
+<td>Jane Doe</td>
+<td>To Kill a Mockingbird</td>
+<td>2022-02-01</td>
+<td>2022-03-01</td>
+<td>2022-02-25</td>
+</tr>
+</tbody>
+</table>
+</section>
+</main>
+<footer>
+<p>© 2023 Library Management System</p>
+</footer>
+
+</body>
+</html>"
